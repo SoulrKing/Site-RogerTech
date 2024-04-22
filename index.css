@@ -1,0 +1,132 @@
+/* Color Theme Swatches in RGBA 
+.Northern-Lights-Beach-1-rgba { color: rgba(1, 34, 63, 1); }
+.Northern-Lights-Beach-2-rgba { color: rgba(1, 89, 89, 1); }
+.Northern-Lights-Beach-3-rgba { color: rgba(2, 114, 51, 1); }
+.Northern-Lights-Beach-4-rgba { color: rgba(3, 165, 60, 1); }
+.Northern-Lights-Beach-5-rgba { color: rgba(4, 216, 57, 1); }
+*/
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+
+.black-ops one-regular {
+    font-family: "Black Ops One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    background: linear-gradient(to top, #1900ff, #0400ffbd, #91f09e)
+}
+main{
+    justify-content: center;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    margin-bottom: 100px;
+    border-radius: 10px;
+    max-width: 800px;
+    min-width: 280px;
+}
+
+div#inicio{
+    text-align: center;
+    font-size: x-large;
+} 
+
+
+img.imagens {
+    width: 100%;
+    height: 100%;
+}
+a.externos::after{
+    content: '\1F517';
+}
+h1 {
+    font-family: "Black Ops One";
+    
+}
+header{
+    color: rgb(0, 0, 0);
+    background-color: #00ff00;
+    text-align: center;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 10px;
+    border: 1px dashed rgba(4, 226, 4, 0.568);
+    box-shadow: 1px 7px 10px 1px rgba(3, 68, 1, 0.432);
+    background: linear-gradient(to top, #058f43, #84c255, #91f09e);
+}
+
+img {
+    display: inline;
+    margin: -10px;
+}
+
+.reverse {
+    transform: scaleX(-1);
+}
+
+.rd-text {
+    padding-left: 10px;
+
+}
+div#redes-sociais>p{
+    margin: 10px;
+    padding: 10px;
+}
+
+div#redes-sociais>p>a{
+    padding: 10px;
+}
+div>a {
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+a:hover {
+    border: 1px black;
+    text-shadow: 0 0 5px #429942;
+    text-decoration: none;
+    transition-duration: 0.5s;
+    color: rgb(94, 255, 0);
+}
+
+h2{
+    font-size: xx-large;
+}
+
+a:active {
+    color: aqua;
+}
+
+div.botoes{
+    display: inline-block;
+    padding: auto;
+    margin: auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
+ }
+
+
+div#botoes-principais{
+    margin: auto;
+    padding: auto ;
+    align-items: center;
+    text-align: center;
+}
+
+div.botoes>a:hover{
+    box-shadow: 0px 5px 20px 10px black;
+    transition: 0.5s;
+    border-radius: 100px;
+}
+
+footer{
+    padding:10px;
+    margin: 10px;
+    color: white;
+    background-color: black;
+    text-align: center;
+}
